@@ -1,9 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { AngularMaterial } from '../shared/angular.material';
-
-import { LoginRoutingModule } from './login-routing.module';
-import { LoginComponent } from './login/login.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
@@ -17,28 +12,25 @@ import { FormsModule } from '@angular/forms';
 
 import {ReactiveFormsModule} from '@angular/forms';
 
-
 @NgModule({
-  declarations: [
-    LoginComponent
-  ],
-  imports: [
-    CommonModule,
-    LoginRoutingModule,
-    AngularMaterial,
-
-    MatSelectModule,
-    MatRadioModule,
-    MatInputModule,
-    MatCardModule,
-    MatButtonModule,
-    ReactiveFormsModule,
-    MatIconModule,
-    MatToolbarModule,
-    MatDividerModule,
- 
-    MatListModule,
-    FormsModule
-  ]
-})
-export class LoginModule { }
+    
+    imports: [
+     
+   
+      MatSelectModule,
+      MatRadioModule,
+      MatInputModule,
+      MatCardModule,
+      MatButtonModule,
+      ReactiveFormsModule,
+      MatIconModule,
+      MatToolbarModule,
+      MatDividerModule,
+   
+      MatListModule,
+      FormsModule
+     
+      
+    ]
+  })
+  export class AngularMaterial { }
