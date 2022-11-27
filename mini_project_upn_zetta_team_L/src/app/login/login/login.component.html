@@ -10,12 +10,10 @@
 <body>  
     <div class="header">
         
-        <h1 class="title">Sushi Resto</h1>
+        <h1 class="title">SUSHI RESTO</h1>
     </div>
-    <div class="content">
-       
+    <div class="content">       
         <div class="box">
-            
             <mat-card class="example-card" >
                 <button mat-raised-button color="warn" >Back</button>
                 <h1 style="text-align: center; margin-bottom: 10px;" >Login</h1>
@@ -34,8 +32,8 @@
                             </button>
                         </mat-form-field>
                      
-                     
-                        <button class="button"mat-raised-button color="primary" >Login</button>
+                     <a [routerLink]="['','home']" >dwdwd</a>
+                        <button class="button"mat-raised-button color="primary" (click)="login()">Login</button>
 
                         </form>
                     </mat-card-content>

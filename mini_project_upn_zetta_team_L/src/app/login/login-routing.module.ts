@@ -4,7 +4,7 @@ import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {
-    path :'login',
+    path :'',
     pathMatch:'full',
     component:LoginComponent
   
@@ -12,8 +12,10 @@ const routes: Routes = [
   {
     path: '**' ,
     pathMatch:'full',
-   redirectTo : 'login'
-  }
+   redirectTo : ''
+  },
+  
+  
 ];
 
 @NgModule({
