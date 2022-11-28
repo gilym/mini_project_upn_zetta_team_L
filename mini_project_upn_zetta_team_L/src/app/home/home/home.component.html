@@ -9,16 +9,32 @@
 </head>
 <body>
     <div class="header">
-        <h1>Sushi Resto</h1>
+		<div class="title">
+		<h1>Sushi Resto</h1>	
+		</div>
     </div>
-	<div class="toolbar">
-		<mat-toolbar color="primary">
-			<mat-toolbar-row>
-			   <span><a href="home.component.html">HOME</a></span>
-			   <span class="spacer"></span>
-			   <a mat-button routerLink="/login">Login</a>
-			</mat-toolbar-row>
-		</mat-toolbar>
+	<div class="nav">
+		<button mat-button routerLink="/">Home</button>
+		<button mat-button routerLink="/login">Login</button>
+		
 	</div>
+	
+	<mat-card>
+		<mat-card-content>
+			<div class="left-card">
+				<h1>We Love <br>Delicious Food!</h1>
+				<button mat-button routerLink="/menu">Explore Menu</button>
+			</div>
+			<div class="right-card">
+				<div class="slider">
+					<div class="isi-slider">
+						<img [src]="assets/pict1.jpeg">
+						<img [src]="assets/pict2.jpeg">
+					</div>
+				</div>
+			</div>
+		</mat-card-content>
+	</mat-card>
+
 </body>
 </html>
