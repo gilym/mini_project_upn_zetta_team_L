@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap');
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar{
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    font-size: 50px;
+}
+
+.container{
+    background-color: #FEFCF3;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.toolbar{
+    font-size: 30px;
+    font-family:'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-right: 15px;
+    color: rgba(240, 248, 255, 0.921);
+    font-size: 20px;
+    }
+.header{
+    height: 760px;
+   background: url(https://res.cloudinary.com/tf-lab/image/upload/restaurant/473d413e-c33e-408f-8adb-98e1503f9c32/b1af07b7-425e-4f3a-8199-5c2883323993.jpg);
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   background-repeat: no-repeat;
+   background-size: 100%;
+
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    font-weight: semibold;
+  
+    
+}
+
+.name{
+   margin: auto;
+    width: 1000px;
+    text-align: center;
+    height: 500px;
+    margin-top: 250px
+    
+   
+  
+}
+
+
+.box1{
+    display: flex; /* or inline-flex */
+background-color: #FEFCF3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+    
+}
+
+.cnt1{
+max-width:30%;
+    flex-grow: 1;    
+   
+    transition: 0.75s;
+    object-fit: cover;
+}
+
+
+.cnt2{
+ 
+    flex-grow: 2; 
+  text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+h1.title{
+  margin-top: 30px;
+   font-family: 'Great Vibes', cursive;
+   font-size: 40px;
+   color: black;
+   font-weight: bold;
+}
+ 
+p{
+    text-align: justify;
+   font-family:'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.menu{
+    background-color: #F0DBDB ;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.titlemenu{
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.example-card {
+    max-width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:aliceblue;
+    overflow: hidden;
+  }
+
+  .item{
+
+    width: 1000px;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    border-spacing: 20px;
+    justify-content: center;
+  }
+
+#namamenu{
+    text-align: center;
+    font-family:'Poppins', sans-serif; 
+}
+
+.resto{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.im{
+inset: 0;
+object-fit: cover;
+opacity: 0.8;
+transition: 0.75s;
+}
+
+.example-card:hover .im {
+    transform: scale(1.15);
+    opacity: 1;
+}
+
+
+
+footer{
+  
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+  
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
