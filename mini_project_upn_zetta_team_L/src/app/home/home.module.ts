@@ -5,7 +5,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home/home.component';
 
 
-import {MatCardModule} from '@angular/material/card';
+import {MatCardImage, MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatRadioModule} from '@angular/material/radio';
@@ -33,6 +33,9 @@ import {ReactiveFormsModule} from '@angular/forms';
     MatIconModule,
     MatToolbarModule,
     MatDividerModule,
+    MatCardImage,
+    ImageData,
+    Image,
   ]
 })
 export class HomeModule { }
