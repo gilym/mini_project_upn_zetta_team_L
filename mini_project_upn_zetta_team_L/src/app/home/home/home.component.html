@@ -15,8 +15,8 @@
             <mat-toolbar>
                
                 <span class="example-spacer"></span>
-                <a class="toolbar">Home</a>
-                <a  class="toolbar">Menu</a>
+                <a class="toolbar" [routerLink]="['..','home']">Home</a>
+                <a  class="toolbar"  [routerLink]="['..','menu']" >Menu</a>
                 <a  class="toolbar">Cart</a>
                 <a  class="toolbar" [routerLink]="['..','login']" >Login</a> 
               </mat-toolbar>

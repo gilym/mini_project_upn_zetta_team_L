@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { LoginModule } from '../login/login.module';
 
 const routes: Routes = [
  
@@ -15,6 +16,8 @@ const routes: Routes = [
     pathMatch:'full',
    redirectTo : ''
   },
+
+  
 ];
 
 @NgModule({
